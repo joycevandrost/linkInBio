@@ -1,2 +1,2 @@
 # linkInBio
-My Own Link In Bio Page
+My Own Link In Bio Page for Instagram
