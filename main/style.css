@@ -38,6 +38,11 @@ body {
 	width: 100%;
 }
 
+.ig-link {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
 .icon-list {
 	font-size: large;
 	text-align: center;
@@ -47,6 +52,10 @@ body {
 a {
 	color: var(--hover-color);
 	text-decoration: none;
+}
+
+.social {
+	margin-right: 10px;
 }
 
 .link-list-item {
