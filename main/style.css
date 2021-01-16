@@ -1,14 +1,13 @@
 :root {
-	--darkest-color: #064273;
-	--list-text-color: #ffffff;
+	--list-text-color: #737373;
 	--hover-color: #737373;
 	--list-box-color: #f0c973;
 	--light-grey-color: #ababab;
-	--dark-grey-color: #222222;
+	--dark-grey-color: #383838;
 }
 
 body {
-	color: var(--dark-grey-color);
+	color: var(--list-text-color);
 	font-family: 'Lato', sans-serif;
 }
 
@@ -38,6 +37,11 @@ body {
 	width: 100%;
 }
 
+.ig-link {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
 .icon-list {
 	font-size: large;
 	text-align: center;
@@ -45,8 +49,12 @@ body {
 }
 
 a {
-	color: var(--hover-color);
+	color: var(--list-box-color);
 	text-decoration: none;
+}
+
+.social {
+	margin-right: 10px;
 }
 
 .link-list-item {
